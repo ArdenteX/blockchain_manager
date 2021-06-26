@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EM"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name = "com.blockchain.blockchain_manage.bean.Member">
+        <id name = "appId" column="appId">
+        </id>
+        <property name="name" column="name"/>
+        <property name="ip" column="ip"/>
+        <property name="groupId" column="groupId"/>
+        <property name="createTime" column="createTime"/>
+        <property name="updateTime" column="updateTime"/>
+    </class>
+</hibernate-mapping>
